@@ -1,21 +1,7 @@
-/* application.rs
+/*
+ * SPDX-FileCopyrightText: 2022 Benjamin Collet <benjamin.collet@protonmail.ch>
  *
- * Copyright 2022 Benjamin
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-License-Identifier: CECILL-2.1
  */
 
 use glib::clone;
@@ -101,12 +87,13 @@ impl ArchivistApplication {
         let window = self.active_window().unwrap();
         let about = adw::AboutWindow::builder()
             .transient_for(&window)
-            .application_name("archivist")
+            .application_name("Archivist")
             .application_icon("fr.mrben.Archivist")
-            .developer_name("Benjamin")
+            .developer_name("Benjamin Collet")
             .version(VERSION)
-            .developers(vec!["Benjamin".into()])
-            .copyright("© 2022 Benjamin")
+            .developers(vec!["Benjamin Collet https://github.com/mrBen".into()])
+            .copyright("© 2022 Benjamin Collet")
+            .license("This application comes with absolutely no warranty. See the <a href=\"https://cecill.info/licences/Licence_CeCILL_V2.1-en.html\">CeCILL License, Version 2.1</a> for details.")
             .build();
 
         about.present();

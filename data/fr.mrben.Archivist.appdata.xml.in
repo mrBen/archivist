@@ -2,7 +2,7 @@
 <component type="desktop">
 	<id>fr.mrben.Archivist.desktop</id>
 	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>GPL-3.0-or-later</project_license>
+	<project_license>CECILL-2.1</project_license>
 	<description>
 	  <p>No description</p>
 	</description>
