@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=archivist
+Exec=archivist
+Icon=fr.mrben.Archivist
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
