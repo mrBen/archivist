@@ -1,4 +1,5 @@
 data/fr.mrben.Archivist.desktop.in
 data/fr.mrben.Archivist.appdata.xml.in
 data/fr.mrben.Archivist.gschema.xml
-src/window.ui
+src/gtk/help-overlay.blp
+src/window.blp

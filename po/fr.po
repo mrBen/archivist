@@ -1,0 +1,66 @@
+# French translations for archivist package.
+# Copyright (C) 2022 THE archivist'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the archivist package.
+# Benjamin Collet <benjamin.collet@protonmail.ch>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: archivist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-23 00:07+0100\n"
+"PO-Revision-Date: 2022-11-22 23:37+0100\n"
+"Last-Translator: Benjamin Collet <benjamin.collet@protonmail.ch>\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/fr.mrben.Archivist.desktop.in:3
+msgid "archivist"
+msgstr "Archivist"
+
+#: data/fr.mrben.Archivist.appdata.xml.in:7
+msgid "No description"
+msgstr "Aucune description"
+
+#: src/gtk/help-overlay.blp:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Général"
+
+#: src/gtk/help-overlay.blp:14
+#, fuzzy
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Afficher les raccourcis"
+
+#: src/gtk/help-overlay.blp:19
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Arrêtez"
+
+#: src/window.blp:30
+msgid "Title"
+msgstr "Titre"
+
+#: src/window.blp:34
+msgid "Director"
+msgstr "Réalisateur"
+
+#: src/window.blp:38
+msgid "Release year"
+msgstr "Sortie"
+
+#: src/window.blp:48
+msgid "_Preferences"
+msgstr "_Préférences"
+
+#: src/window.blp:53
+msgid "_Keyboard Shortcuts"
+msgstr "_Raccourcis clavier"
+
+#: src/window.blp:58
+msgid "_About Archivist"
+msgstr "_À propos"

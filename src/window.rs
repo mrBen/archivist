@@ -18,7 +18,7 @@ mod imp {
         #[template_child]
         pub header_bar: TemplateChild<gtk::HeaderBar>,
         #[template_child]
-        pub label: TemplateChild<gtk::Label>,
+        pub preferences_group: TemplateChild<adw::PreferencesGroup>,
     }
 
     #[glib::object_subclass]
