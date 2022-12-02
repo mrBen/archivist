@@ -54,7 +54,8 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://github.com/mrBen/archivist"
+                    "url" : "https://github.com/mrBen/archivist",
+                    "branch": "main"
                 }
             ]
         }
